@@ -1,3 +1,102 @@
 page-home {
+    font-family: 'Teko';
 
+    .content-md {
+        background-image: url('../../assets/imgs/main_bg.jpg');
+        background-size: cover;
+        background-color: #555;
+        background-blend-mode: multiply;
+    }
+
+    text-align: center;
+
+    /* helper area style*/
+    #helper {
+        ion-buttons.help-button {
+            float: left;
+            
+            button {
+                box-shadow: none;
+                padding: 0 8px;
+
+                .button-inner {
+                    font-size: 1.5em;
+                }
+            }
+        }
+
+        ion-buttons.cart-button {
+            float: right;
+            
+            button {
+                box-shadow: none;
+                padding: 0 8px;
+
+                .button-inner {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+
+    h1.game-title {
+        color: #ddd;
+        margin-top: 2em;
+        font-size: 2.7em;
+        text-align: center;
+        font-weight: 300;
+    }
+    .content-menu {
+        border-radius: 12px;
+        padding: 10px 0px;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        border: 1px solid color($colors, pubg-border-color);
+        /* content area style */
+        #content-area {
+            margin-top: 4.5em;
+            .play-button {
+                button {
+                    border: 2px solid color($colors, pubg-border-color);
+                    border-top-right-radius: 4em;
+                    border-bottom-right-radius: 4em;
+                    box-shadow: none;
+                    padding: 3.2em;
+                    .button-inner {
+                        font-size: 2.7em;
+                    }
+                }
+            }
+        }
+
+        /* footer stuff */
+        #footer {
+            margin-top: 4.5em;
+
+            .score-area {
+                .title-score {
+                    color: #ddd;
+                    font-size: 2em;
+                    font-weight: 300;
+                }
+                .subs-score {
+                    color: #ddd;
+                    font-size: 1.8em;
+                    margin: 5px 0px;
+                    font-weight: bold;
+                }
+            }
+
+            .social {
+                margin-top: 1.5em;
+                text-align: center;
+
+                button {
+                    box-shadow: none;
+                    ion-icon {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
 }

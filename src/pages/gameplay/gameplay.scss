@@ -1,0 +1,97 @@
+page-gameplay {
+    font-family: 'Teko';
+
+    .content-md {
+        background-image: url('../../assets/imgs/gameplay_bg.jpg');
+        background-size: cover;
+        background-color: #333;
+        background-blend-mode: multiply;
+    }
+
+    .kuis-navbar {
+        ion-buttons {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+
+            button {
+                padding: 0px;
+                background-color: transparent;
+                color: color($colors, pubg-color);
+                font-size: 2em;
+                box-shadow: none;
+            }
+        }
+
+        .score {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+
+            h2 {
+                padding-top: .3em;
+                margin: 0px;
+                font-size: 2em;
+                font-weight: 400;
+                color: color($colors, pubg-color);
+            }
+        }
+    }
+
+    h3 {
+        margin-top: 1.5em;
+        text-align: center;
+        font-size: 2.3em;
+        font-weight: 400;
+        color: color($colors, pubg-color);
+    }
+
+    h4 {
+        padding: 8px 0px;
+        border: 1px solid color($colors, pubg-border-color);
+        margin: 0;    
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: color($colors, pubg-color);
+    }
+
+    .game {
+        border: 1px solid color($colors, pubg-border-color);
+        text-align: center;
+        margin: 2em 0;
+        padding: 1.3em 0;
+
+        #question {
+            h1 {
+                font-size: 1.7em;
+                color: color($colors, pubg-color);
+            }
+        }
+
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+    .answers {
+        .divider-answer-hor {
+            width: 10px;
+        }
+        .divider-answer-ver {
+            height: 10px;
+        }
+
+        ion-col {
+            text-align: center;
+            border: 1px solid color($colors, pubg-border-color);
+
+            p {
+                margin: 0;
+                font-size: 1.3em;
+                color: color($colors, pubg-color);
+            }
+        }
+    }
+}
