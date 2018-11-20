@@ -20,6 +20,7 @@ page-home {
                 padding: 0 8px;
 
                 .button-inner {
+                    color: color($colors, pubg-color-darker);
                     font-size: 1.5em;
                 }
             }
@@ -33,6 +34,7 @@ page-home {
                 padding: 0 8px;
 
                 .button-inner {
+                    color: color($colors, pubg-color-darker);
                     font-size: 1.5em;
                 }
             }
@@ -40,12 +42,13 @@ page-home {
     }
 
     h1.game-title {
-        color: #ddd;
+        color: color($colors, pubg-color);
         margin-top: 2em;
         font-size: 2.7em;
         text-align: center;
         font-weight: 300;
     }
+    
     .content-menu {
         border-radius: 12px;
         padding: 10px 0px;
@@ -56,11 +59,12 @@ page-home {
             margin-top: 4.5em;
             .play-button {
                 button {
-                    border: 2px solid color($colors, pubg-border-color);
+                    border: 2px solid color($colors, pubg-color-darker);
                     border-top-right-radius: 4em;
                     border-bottom-right-radius: 4em;
                     box-shadow: none;
                     padding: 3.2em;
+                    color: color($colors, pubg-color-darker);
                     .button-inner {
                         font-size: 2.7em;
                     }
@@ -74,12 +78,12 @@ page-home {
 
             .score-area {
                 .title-score {
-                    color: #ddd;
+                    color: color($colors, pubg-color);
                     font-size: 2em;
                     font-weight: 300;
                 }
                 .subs-score {
-                    color: #ddd;
+                    color: color($colors, pubg-border-color);
                     font-size: 1.8em;
                     margin: 5px 0px;
                     font-weight: bold;
@@ -93,6 +97,7 @@ page-home {
                 button {
                     box-shadow: none;
                     ion-icon {
+                        color: color($colors, pubg-color-darker);
                         font-size: 1.5em;
                     }
                 }

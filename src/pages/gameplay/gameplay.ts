@@ -14,4 +14,8 @@ export class GameplayPage {
     console.log('ionViewDidLoad GameplayPage');
   }
 
+  exitGamePlay() {
+    console.log('nani?');
+    this.navCtrl.goToRoot({});
+  }
 }

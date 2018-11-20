@@ -57,7 +57,7 @@ page-gameplay {
     }
 
     .game {
-        border: 1px solid color($colors, pubg-border-color);
+        border: .5px solid color($colors, pubg-border-color);
         text-align: center;
         margin: 2em 0;
         padding: 1.3em 0;
@@ -85,7 +85,7 @@ page-gameplay {
 
         ion-col {
             text-align: center;
-            border: 1px solid color($colors, pubg-border-color);
+            border: .5px solid color($colors, pubg-border-color);
 
             p {
                 margin: 0;
